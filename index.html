@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison de Parfum</title>
+  <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">MAISON DE PARFUM</div>
+      <nav class="nav-links">
+        <a href="#maison">Our History</a>
+        <a href="#collection">Collection</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-icons">
+        <button class="icon-btn" aria-label="Pesquisar">
+          <img src="assets/pesquisa.png" alt="">
+        </button>
+        <button class="icon-btn" aria-label="Carrinho">
+          <img src="assets/carrinho.png" alt="">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <p class="hero-subtitle">A Arte do Perfume</p>
+      <h1 class="hero-title">Elegance Rouge</h1>
+      <p class="hero-text">
+        Uma fragrância que captura a essência da sofisticação atemporal.
+      </p>
+      <button class="btn-primary" id="btnDiscover">Descobrir</button>
+    </div>
+  </section>
+
+  <!-- Maison / Essência -->
+  <section class="section maison" id="maison">
+    <div class="container maison-grid">
+      <div class="maison-image">
+        <img src="assets/maison.webp" alt="Coleção de perfumes sobre mesa de mármore" />
+      </div>
+      <div class="maison-content">
+        <p class="section-label">Desde 1925</p>
+        <h2 class="section-title">
+          A Essência da <span>Perfeição</span>
+        </h2>
+        <p class="section-text">
+          Maison de Parfum cria fragrâncias que unem arte, tradição e luxo em cada detalhe.
+        </p>
+        <p class="section-text">
+          Nossas criações combinam notas clássicas e modernas para revelar perfumes únicos para cada história.
+        </p>
+        <a href="#collection" class="link-underline">Nossa coleção</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coleção -->
+  <section class="section collection" id="collection">
+    <div class="container">
+      <h2 class="section-title center">La Collection</h2>
+      <p class="section-text center collection-subtitle">
+        Nossas fragrâncias exclusivas criadas para momentos inesquecíveis.
+      </p>
+
+      <div class="cards-grid">
+        <!-- Card 1 -->
+        <article class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/perfume1.jpg" alt="Frasco de perfume vermelho" />
+          </div>
+          <p class="product-type">Eau de Parfum</p>
+          <h3 class="product-name">Rouge Intense</h3>
+          <p class="product-price">R$ 890,00</p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="product-card featured">
+          <div class="product-img-wrapper">
+            <img src="assets/perfume2.avif" alt="Três perfumes sobre mesa de mármore" />
+          </div>
+          <p class="product-type">Parfum</p>
+          <h3 class="product-name">L'Interdit Eau de Parfum Rouge</h3>
+          <p class="product-price">R$ 2.250,00</p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="product-card">
+          <div class="product-img-wrapper">
+            <img src="assets/perfume3.jpg" alt="Perfume com flores de rosa" />
+          </div>
+          <p class="product-type">Eau de Parfum</p>
+          <h3 class="product-name">O.U.I Paradis Rouge</h3>
+          <p class="product-price">R$ 680,00</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato + Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <h3 class="footer-logo">MAISON DE PARFUM</h3>
+        <p class="footer-text">
+          Descubra a arte do perfume em cada detalhe. Fragrâncias criadas com alma e personalidade.
+        </p>
+        <div class="footer-socials">
+          <a href="#" aria-label="LinkedIn"><img src="assets/linkedin.png" alt=""></a>
+          <a href="#" aria-label="Instagram"><img src="assets/instagram.png" alt=""></a>
+          <a href="#" aria-label="Pinterest"><img src="assets/pinterest.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Explorar</h4>
+        <a href="#collection">Novidades</a>
+        <a href="#collection">Comprar a Coleção</a>
+        <a href="#maison">Nossa história</a>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Suporte</h4>
+        <a href="#contact">Contato</a>
+        <a href="#">Envio & Devoluções</a>
+        <a href="#">Perguntas frequentes</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2025 Maison de Parfum. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Serviço</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
